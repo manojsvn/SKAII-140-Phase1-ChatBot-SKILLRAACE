@@ -1,0 +1,270 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "schedule_meeting",
+      "patterns": [
+        "Schedule a meeting",
+        "I need to set up a meeting",
+        "Can you book a meeting for me?",
+        "Arrange a meeting",
+        "I want to schedule a task",
+        "schedule a task"
+      ],
+      "responses": [
+        "Sure, I can help with that. When would you like to schedule the meeting?",
+        "Absolutely! Please provide the date and time for the meeting."
+      ]
+    },
+    {
+      "tag": "check_schedule",
+      "patterns": [
+        "What's on my schedule?",
+        "Do I have any meetings today?",
+        "Show me my schedule",
+        "What's my agenda?"
+      ],
+      "responses": [
+        "Let me check your schedule. One moment please.",
+        "Here's what you have on your schedule for today."
+      ]
+    },
+    {
+      "tag": "cancel_meeting",
+      "patterns": [
+        "Cancel my meeting",
+        "I need to cancel a meeting",
+        "Can you cancel my meeting?",
+        "Remove a meeting from my schedule",
+        "Cancel my schedules"
+      ],
+      "responses": [
+        "Which meeting would you like to cancel?",
+        "Please provide the details of the meeting you want to cancel."
+      ]
+    },
+    {
+      "tag": "reschedule_meeting",
+      "patterns": [
+        "Reschedule my meeting",
+        "I need to move my meeting",
+        "Can you change my meeting time?",
+        "Shift my meeting to another time",
+        "Reschedule my tasks"
+      ],
+      "responses": [
+        "Sure, I can help with that. Please provide the new date and time for the meeting.",
+        "Absolutely! When would you like to reschedule the meeting to?"
+      ]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "How's the weather today?",
+        "Is it going to rain today?",
+        "What's the forecast?"
+      ],
+      "responses": [
+        "Let me check the weather for you.",
+        "Today's weather is sunny with a chance of rain in the evening."
+      ]
+    },
+    {
+      "tag": "news",
+      "patterns": [
+        "What's the latest news?",
+        "Any news updates?",
+        "Tell me the news",
+        "What's happening in the world?"
+      ],
+      "responses": [
+        "Here are the latest news headlines.",
+        "Let me get the latest news for you."
+      ]
+    },
+    {
+      "tag": "quote",
+      "patterns": [
+        "Give me a quote",
+        "Inspire me",
+        "Tell me a quote",
+        "I need some inspiration"
+      ],
+      "responses": [
+        "The only limit to our realization of tomorrow is our doubts of today. - Franklin D. Roosevelt",
+        "The best way to predict the future is to invent it. - Alan Kay"
+      ]
+    },
+    {
+      "tag": "story",
+      "patterns": [
+        "Tell me a story",
+        "Do you know any stories?",
+        "Share a story with me",
+        "I want to hear a story"
+      ],
+      "responses": [
+        "Once upon a time, in a land far away...",
+        "Here's a story for you: There was once a wise old man who..."
+      ]
+    },
+    {
+      "tag": "recipe",
+      "patterns": [
+        "Can you suggest a recipe?",
+        "What's a good recipe for dinner?",
+        "Give me a recipe",
+        "Do you know any recipes?"
+      ],
+      "responses": [
+        "How about a pasta recipe? You'll need pasta, tomatoes, garlic...",
+        "Here's a recipe for a delicious chocolate cake: you'll need flour, sugar..."
+      ]
+    },
+    {
+      "tag": "exercise",
+      "patterns": [
+        "Suggest an exercise",
+        "What's a good exercise routine?",
+        "Give me an exercise",
+        "Do you know any workouts?"
+      ],
+      "responses": [
+        "How about some push-ups and squats?",
+        "A good exercise routine includes cardio, strength training, and flexibility exercises."
+      ]
+    },
+    {
+      "tag": "music",
+      "patterns": [
+        "Suggest a song",
+        "What's a good song to listen to?",
+        "Give me a music recommendation",
+        "Do you know any good music?"
+      ],
+      "responses": [
+        "How about listening to 'Imagine' by John Lennon?",
+        "A great song is 'Bohemian Rhapsody' by Queen."
+      ]
+    },
+    {
+      "tag": "movie",
+      "patterns": [
+        "Suggest a movie",
+        "What's a good movie to watch?",
+        "Give me a movie recommendation",
+        "Do you know any good movies?"
+      ],
+      "responses": [
+        "You should watch 'Inception', it's a great movie!",
+        "A good movie to watch is 'The Shawshank Redemption'."
+      ]
+    },
+    {
+      "tag": "restaurant",
+      "patterns": [
+        "Suggest a restaurant",
+        "What's a good place to eat?",
+        "Give me a restaurant recommendation",
+        "Do you know any good restaurants?"
+      ],
+      "responses": [
+        "How about trying out the new Italian place downtown?",
+        "A great restaurant is 'The Gourmet Kitchen'."
+      ]
+    },
+    {
+      "tag": "support",
+      "patterns": [
+        "I need help",
+        "Can you help me?",
+        "Support",
+        "I need assistance"
+      ],
+      "responses": [
+        "Sure, I'm here to help. What do you need assistance with?",
+        "I'm happy to assist you. Please tell me more about your issue."
+      ]
+    }
+  ]
+}
